@@ -1,2 +1,43 @@
+/* Your CSS Code here. */\
+.container {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid green;
+}
 
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col-sm-6, .col-md-4, .col-md-8 {
+    border: 3px dotted;
+    padding: 20px;
+    text-align: center;
+}
+
+.r1c1 {
+    background-color: blue;
+}
+
+.r1c2 {
+    background-color: green;
+}
+
+.r2c1 {
+    background-color: orange;
+}
+
+.r2c2 {
+    background-color: lightcyan;
+}
+
+.r3c1 {
+    background-color: chocolate;
+}
+
+.r3c2 {
+    background-color: lightgreen;
+}
 /* Your CSS Code here. */

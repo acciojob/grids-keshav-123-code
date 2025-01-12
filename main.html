@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grid Layout Test</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 r1c1">Row 1, Column 1</div>
+            <div class="col-md-8 col-sm-6 r1c2">Row 1, Column 2</div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-md-4 r2c1 offset-md-2">Row 2, Column 1</div>
+            <div class="col-md-4 r2c2">Row 2, Column 2</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 r3c1">Row 3, Column 1</div>
+            <div class="col-md-4 col-sm-6 r3c2">Row 3, Column 2</div>
+        </div>
+    </div>
 </body>
-
 </html>
